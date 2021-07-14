@@ -1,0 +1,12 @@
+DRSSS*.log
+DRSSS*.csv
+DRSSSCommander*.txt
+DRSSS_SYNCS_ERROR*.log
+SSErrDlg.log
+*.dmp
+drslogin*.txt
+dbg.txt*
+dbg.*
+DRSSS_SYNCS_ERROR*.log
+SSErrDlg.log
+DRSDEX*.log
