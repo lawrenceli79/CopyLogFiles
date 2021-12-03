@@ -3,6 +3,11 @@ import os
 import re
 import tkinter as tk
 
+if(len(sys.argv) < 5):
+    print ("Usage:")
+    print ("    py {} <LogListFile> <PCListFile> <TargetFolder> <nDays> ".format(os.path.basename(__file__)))
+    sys.exit()
+
 strLogListFile = sys.argv[1]
 strPCListFile = sys.argv[2]
 strTargetFolder = sys.argv[3]
